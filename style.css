@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+
+    position: relative;
+    overflow-x: hidden;
+    
+    background-color: rgb(237,237,237);
+    background-image: url('source/pexels-la-miko-3616764.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 110%;
+
+    transition: all .5s;
+}
+
+header a {
+    color: white;
+}
+
+.header-b {
+    background-color: rgba(245, 245, 245, 0.404);
+}
+
+.header-b img {
+    width: 6rem;
+}
+
+.header-b a {
+    color: black;
+}
+
+main {
+    position: relative;
+    z-index: 0;
+}
+
+.contact a:hover {
+    opacity: .7;
+}
+
+.carousel img {
+    filter: blur(4px);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.title-main {
+    position: relative;
+}
+
+.content {
+    background-color: rgb(241, 241, 241);
+}
+
+.content p {
+    padding: 0 15rem;
+}
+
+.card-prof {
+    padding: 2rem 16rem;
+}
+
+.card-prof div {
+    margin: 0 1rem;
+}
+
+.card {
+    padding: 0;
+}
+
+.card i {
+    padding-top: 2rem;
+
+    font-size: 8rem;
+    text-align: center;
+}
+
+.card p {
+    font-size: 1.5rem;
+    opacity: .9;
+    text-align: center;
+}
+
+.card a {
+    width: 100%;
+}
+
+.faq {
+    margin: 0 auto;
+}
+
+.question form {
+    margin: 0 auto;
+    width: 20%;
+}
+
+.question form .btn-group {
+    display: block;
+}
+
+.contacts i {
+    font-size: 1rem;
+}
+
+.contacts span {
+    font-size: 1.2rem;
+}
