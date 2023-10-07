@@ -14,22 +14,31 @@
 
 <body class="container-fluid p-0 m-0">
     <header class="row m-0">
-        <div class="logo col-6 p-4 text-start">
+        <div class="logo col-6 col-xl-3 p-4 text-start">
             <a href="#">
                 <img src="source/logo.png">
             </a>
         </div>
-        <div class="contacts-header col-6 p-4 text-end">
-            <a class="p-1" href="#">
-                <i class="fa-brands fa-vk fa-2xl"></i>
-            </a>
-            <a class="p-1" href="#">
-                <i class="fa-brands fa-instagram fa-2xl"></i>
-            </a>
-            <a class="p-1" href="#">
-                <i class="fa-brands fa-telegram fa-2xl"></i>
-            </a>
-            <a class="btn btn-outline-light dropdown-toggle mt-2" href="#" role="button" id="dropdownMenuLink"
+        <div class="links col-6 d-none d-xl-flex align-items-center">
+            <a href="#spec">Специальности</a>
+            <a href="#photo">Наша жизнь</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contacts">Контакты</a>
+        </div>
+        <div class="contacts-header col-6 col-xl-3 p-4 text-end">
+            <div class="col-12">
+                <a class="p-1" href="#">
+                    <i class="fa-brands fa-vk fa-2xl"></i>
+                </a>
+                <a class="p-1" href="#">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                </a>
+                <a class="p-1" href="#">
+                    <i class="fa-brands fa-telegram fa-2xl"></i>
+                </a>
+            </div>
+
+            <a class="btn btn-outline-light dropdown-toggle mt-2 " href="#" role="button" id="dropdownMenuLink"
                 data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 80%;">
                 Позвонить нам
             </a>
@@ -91,7 +100,7 @@
         </div>
 
         <div class="profession my-4 container-fluid">
-            <h1 class="title text-center font-monospace">Специальности</h1>
+            <h1 class="title text-center font-monospace" id="spec">Специальности</h1>
             <div class="card-prof justify-content-center row">
                 <div class="card col-2" style="width: 20rem;">
                     <i class="fa-solid fa-scale-unbalanced-flip" style="color: #b53b3b;"></i>
@@ -125,11 +134,11 @@
         </div>
 
         <div class="photo">
-
+            <h1 class="title text-center font-monospace" id="photo">Наша жизнь</h1>
         </div>
 
         <div class="faq my-4 p-4 col-10">
-            <h1 class="title text-start font-monospace">FAQ</h1>
+            <h1 class="title text-start font-monospace" id="faq">FAQ</h1>
             <a style="font-size: 1.4rem; font-weight: 200;">Ответы на частозадаваемые вопросы</a>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
@@ -343,7 +352,7 @@
         </div>
 
         <div class="contacts">
-            <h1 class="title text-center font-monospace">Контакты</h1>
+            <h1 class="title text-center font-monospace" id="contacts">Контакты</h1>
             <div class="card text-center" style="margin: 0 auto;">
                 <div class="card-header"></div>
                 <div class="card-body row">

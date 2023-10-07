@@ -50,13 +50,38 @@ header img {
     color: black;
 }
 
+header .links {
+    color: white;
+    font-size: 110%;
+}
+
+header .links a {
+    padding: 0 8%;
+    border-bottom: 0;
+    border-bottom: 1px solid transparent;
+
+    transition: all .4s;
+}
+
+header .links a:hover {
+    border-bottom: 1px solid white;
+}
+
+.links-hide {
+    color: red;
+}
+
+.contacts-header a:hover {
+    opacity: .7;
+}
+
 main {
     position: relative;
     z-index: 0;
 }
 
-.contacts-header a:hover {
-    opacity: .7;
+main div .title {
+    margin-top: 10%;
 }
 
 .carousel-caption {
@@ -86,11 +111,11 @@ main {
 }
 
 @media (max-width: 550px) {
-    .carousel-caption > h1{
+    .carousel-caption>h1 {
         font-size: 1.3rem;
     }
 
-    .carousel-caption > p{
+    .carousel-caption>p {
         font-size: 1rem;
     }
 }
