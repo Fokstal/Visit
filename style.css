@@ -35,7 +35,7 @@ header a {
 }
 
 header img {
-    width: 8rem;
+    width: 14rem;
 }
 
 .header-b {
@@ -63,6 +63,18 @@ main {
     filter: blur(4px);
     height: 100vh;
     overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+    .carousel img {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header img {
+        width: 8rem;
+    }
 }
 
 .title-main {
