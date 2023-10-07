@@ -10,7 +10,6 @@ body {
     width: 100%;
 
     position: relative;
-    overflow-x: hidden;
 
     background-color: rgb(237, 237, 237);
     background-image: url('source/pexels-la-miko-3616764.jpg');
@@ -20,11 +19,12 @@ body {
 }
 
 header {
+    width: 100%;
+
     position: absolute;
     position: fixed;
     top: 0;
     z-index: 1;
-    width: 100%;
 
     transition: all .5s;
 }
@@ -35,11 +35,11 @@ header a {
 }
 
 header img {
-    width: 10rem;
+    width: 8rem;
 }
 
 .header-b {
-    background-color: rgba(245, 245, 245, 0.404);
+    background-color: rgba(124, 124, 124, 0.404);
 }
 
 .header-b img {
@@ -55,7 +55,7 @@ main {
     z-index: 0;
 }
 
-.contact a:hover {
+.contacts-header a:hover {
     opacity: .7;
 }
 
