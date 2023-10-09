@@ -163,6 +163,12 @@ main div .title {
     width: 100%;
 }
 
+.photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 .faq {
     margin: 0 auto;
 }
@@ -191,4 +197,14 @@ main div .title {
 
 .contacts span {
     font-size: 80%;
+}
+
+footer a {
+    display: block;
+    color: rgba(0, 0, 0, 0.506);
+}
+
+footer .cell {
+    border-left: .1px solid  rgba(0, 0, 0, 0.237);
+    border-right: .1px solid  rgba(0, 0, 0, 0.237);
 }
