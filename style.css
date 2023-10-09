@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    object-fit: cover;
+}
+
 body {
     width: 100%;
 
@@ -163,6 +167,10 @@ main div .title {
     width: 100%;
 }
 
+.photo {
+    overflow: hidden;
+}
+
 .photo img {
     max-width: 100%;
     height: auto;
@@ -199,6 +207,10 @@ main div .title {
     font-size: 80%;
 }
 
+footer {
+    width: 100%;
+}
+
 footer a {
     display: block;
     color: rgba(0, 0, 0, 0.506);
@@ -207,4 +219,6 @@ footer a {
 footer .cell {
     border-left: .1px solid  rgba(0, 0, 0, 0.237);
     border-right: .1px solid  rgba(0, 0, 0, 0.237);
+
+    padding-top: 3%;
 }
